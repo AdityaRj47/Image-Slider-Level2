@@ -120,3 +120,43 @@ body{
 }
 
 /* Level 2 :Pop up ends  */
+
+/* Responsive part  */
+@media(max-width: 768px){
+    .page-header{
+        flex-direction: column;
+
+    }
+    .project-title{
+        font-size: 4rem;
+        text-align: center;
+    }
+    body{
+        padding: 0.1rem;
+        padding-bottom: 1rem;
+    }
+    #logo{
+        padding-left: 16rem;
+        width: 25%;
+        height: 15vh;
+        
+    }
+    .carousel-slide{
+        height: calc(100vh - 319px);
+    }
+    .popup-content{
+        margin:22% 1% 5% 5%;
+        width: 80%;
+        left: 1rem;
+        right: 1rem;
+    }
+    .close{
+        position: absolute;
+        top: 25rem;
+        right: 3rem;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+
+}
