@@ -128,7 +128,7 @@ body{
 
     }
     .project-title{
-        font-size: 4rem;
+        font-size: 3rem;
         text-align: center;
     }
     body{
@@ -148,12 +148,51 @@ body{
         margin:22% 1% 5% 5%;
         width: 80%;
         left: 1rem;
+        right: 5rem;
+    }
+    .close{
+        position: absolute;
+        top: 20rem;
+        right: 5rem;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+
+}
+
+@media(max-width:360px){
+    .page-header{
+        flex-direction: column;
+
+    }
+    .project-title{
+        font-size: 2rem;
+        text-align: center;
+    }
+    body{
+        padding: 0.1rem;
+        padding-bottom: 1rem;
+    }
+    #logo{
+        padding-left: 7rem;
+        width: 30%;
+        height: 25vh;
+        
+    }
+    .carousel-slide{
+        height: calc(100vh - 319px);
+    }
+    .popup-content{
+        margin:22% 1% 5% 5%;
+        width: 90%;
+        left: 1rem;
         right: 1rem;
     }
     .close{
         position: absolute;
-        top: 25rem;
-        right: 3rem;
+        top: 15rem;
+        right: 1rem;
         font-size: 40px;
         color: white;
         cursor: pointer;
