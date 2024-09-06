@@ -128,7 +128,7 @@ body{
 
     }
     .project-title{
-        font-size: 3rem;
+        font-size: 48px;
         text-align: center;
     }
     body{
@@ -138,7 +138,7 @@ body{
     #logo{
         padding-left: 16rem;
         width: 25%;
-        height: 15vh;
+        height: 10vh;
         
     }
     .carousel-slide{
@@ -161,13 +161,13 @@ body{
 
 }
 
-@media(max-width:360px){
+@media(max-width:412px){
     .page-header{
         flex-direction: column;
 
     }
     .project-title{
-        font-size: 2rem;
+        font-size: 40px;
         text-align: center;
     }
     body{
@@ -175,9 +175,9 @@ body{
         padding-bottom: 1rem;
     }
     #logo{
-        padding-left: 7rem;
-        width: 30%;
-        height: 25vh;
+        padding-left: 85px;
+        width: 40%;
+        height: 8vh;
         
     }
     .carousel-slide{
@@ -191,8 +191,8 @@ body{
     }
     .close{
         position: absolute;
-        top: 15rem;
-        right: 1rem;
+        top: 18rem;
+        right: 8px;
         font-size: 40px;
         color: white;
         cursor: pointer;
